@@ -1,15 +1,13 @@
 # JJN-INFO: GIT-CLONE-ORGANIZATION
 
----
-
-## **What It Does**
+## What It Does
 - This is a lightweight utility for cloning all repos from a GitHub organization in one go.  
 - Handy when I need to bulk clone repos for audits, migrations, or local exploration.  
 - Works with 2FA by using a personal access token (PAT). Minimal setup, no frills, and very straightforward.  
 
 ---
 
-## **Folder Layout**
+## Folder Layout
 
 ```plaintext
 /Users/jasonnathan/Repos/git-clone-organization
@@ -19,7 +17,7 @@
 
 ---
 
-## **How It Works**
+## How It Works
 
 ### The Script
 - It’s an interactive CLI:
@@ -39,7 +37,7 @@
 
 ---
 
-## **How to Use**
+## How to Use
 
 ### Prerequisites
 - **Node.js**: Required to run the script.  
@@ -71,14 +69,14 @@
 
 ---
 
-## **What I Like**
+## What I Like
 - **Dead Simple**: No dependencies, just plain Node.js and `curl`.  
 - **Quick Setup**: Minimal friction for getting all repos locally.  
 - **Interactive Flow**: The prompts make it feel user-friendly without needing arguments or flags.  
 
 ---
 
-## **Things to Improve**
+## Things to Improve
 1. **Error Handling**:  
    - If the token is invalid or the org name doesn’t exist, it just fails silently or throws generic errors. Could use better feedback here.  
 2. **Pagination Support**:  
@@ -90,7 +88,7 @@
 
 ---
 
-## **Quick Commands**
+## Quick Commands
 - **Run the Script**:
   ```bash
   ./git_clone_org
@@ -102,12 +100,12 @@
 
 ---
 
-## **Repo Link**
+## Repo Link
 ```plaintext
 origin	git@github.com:richgilbank/git-clone-organization.git
 ```
 
 ---
 
-## **Final Thoughts**
+## Final Thoughts
 It’s not a critical tool, but it’s definitely nice to have. When I want all repos from an org for a quick audit or local backups, this does the job without fuss. There’s room to improve if I ever feel like it, but for now, it’s perfect for occasional use.
